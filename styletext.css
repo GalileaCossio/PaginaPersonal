@@ -1,0 +1,59 @@
+div {
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+    font-size: 100%;
+}
+
+#text{
+    display: inline-block;
+    vertical-align: top;
+}
+
+p{
+    font-family: Helvetica;
+}
+
+h1{
+    font-family: Cambria;
+    font-size: 500%;
+}
+
+.justificado{
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+    display: flex;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.txt-caja{
+    max-width: 60%;
+    text-align: left;
+}
+
+.txt .fondo a{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(58, 4, 58);
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
